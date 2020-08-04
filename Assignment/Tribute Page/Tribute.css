@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.SSR{
+	position: absolute;
+	background: url("sushant.jpeg");
+	background-attachment: normal;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 100%;
+	opacity: 0.9;
+}
+
+.alive{
+	position: relative;
+	text-align: center;
+	font-family: 'oswald', sans-serif;
+	font-size: 4.5rem;
+	font-weight: bolder;
+	color: #fff;
+	letter-spacing: 5px;
+	top: 4.5em;
+	left: 4em;
+	border-bottom: 4px solid #fff;
+	width: 58%;
+	transition: .3s;
+}
+
+.alive:hover{
+	position: relative;
+	transition: .5s;
+	width: 70%;
+	left: 2.7em;
+}
+
+.about{
+	position: absolute;
+	text-align: center;
+	font-family: 'Cousine', monospace;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #000;
+	letter-spacing: 5px;
+	top: 12em;
+	left: 7.3em;
+}
+
+.line{
+	position: relative;
+	right: 8em;
+	top: 1.06em;
+	border: 3px solid #000;
+	width: 91%;
+}
+
+.line2{
+	position: relative;
+	left: 7.9em;
+	bottom: 1.16em;
+	width: 92%;
+	border: 3px solid #000;
+}
+
+.about-text{
+	position: absolute;
+	text-align: center;
+	font-family: 'lato', serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #000;
+	letter-spacing: 3px;
+	width: 70%;
+}
+
+.start{
+	position: relative;
+	top: 37em;
+	left: 3em;
+}
+
+.recognition{
+	position: relative;
+	top: 34em;
+	left: 20em;
+}
+
+.star{
+	position: relative;
+	top: 31em;
+	left: 3em;
+}
+
+.point-1{
+	position: relative;
+	top: 42em;
+	left: 35.5em;
+	border-bottom: 4px solid #000; 
+	width: 33%;
+}
+
+.point-2{
+	position: relative;
+	top: 39em;
+	left: -14em;
+	border-bottom: 4px solid #000; 
+	width: 33%;
+}
+
+.point-3{
+	position: relative;
+	top: 36em;
+	left: 36.5em;
+	border-bottom: 4px solid #000; 
+	width: 33%;
+}
+
+.circle-1{
+	position: relative;
+	top: 40.5em;
+	left: 69em;
+	border: 4px solid #000; 
+	border-radius: 50px;
+	width: 3%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+
+.circle-2{
+	position: relative;
+	top: 37.5em;
+	left: 1.3em;
+	border: 4px solid #000; 
+	border-radius: 50px;
+	width: 3%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+
+.circle-3{
+	position: relative;
+	top: 34.5em;
+	left: 70em;
+	border: 4px solid #000; 
+	border-radius: 50px;
+	width: 3%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+
+.film{
+	position: relative;
+	background-color: #d9e0f1;
+	width: 100%;
+	min-height: 160%;
+	top: 78em;
+}
+
+.film-text{
+	position: relative;
+	top: 3rem;
+	text-align: center;
+	font-family: 'cousine', monospace;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.Kai{
+	position: absolute;
+	background-color: #000;
+	background: url('Kai Po Che.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	border: 5px solid #000;
+	border-radius: 50%;
+	width: 25%;
+	min-height: 31%;
+	top: 11rem;
+	left: 7rem;
+	transition: .3s;
+}
+
+.kai:hover{
+	transform: scale(1.1);
+	top: 9.5em;
+	transition: .4s;
+}
+
+.kai-text{
+	position: absolute;
+	font-family: 'playfair display', serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	background-color: #000;
+	color: #fff;
+	border: 4px solid #000;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 2em;
+	width: 70%;
+	height: 15%;
+	top: 23.5rem;
+	left: 2.5rem;
+}
+
+.Detective{
+	position: absolute;
+	background-color: #000;
+	background: url('Detective Byomkesh Bakshi.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border: 5px solid #000;
+	border-radius: 50%;
+	width: 25%;
+	min-height: 31%;
+	top: 11rem;
+	left: 37rem;
+	transition: .3s;
+}
+
+.Detective:hover{
+	transform: scale(1.1);
+	top: 9.5em;
+	transition: .4s;
+}
+
+.Detective-text{
+	position: absolute;
+	font-family: 'playfair display', serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	background-color: #000;
+	color: #fff;
+	border: 4px solid #000;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 2em;
+	width: 100%;
+	height: 15%;
+	top: 23.5rem;
+}
+
+
+.Dhoni{
+	position: absolute;
+	background-color: #000;
+	background: url('Ms Dhoni.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 5px solid #000;
+	border-radius: 50%;
+	width: 25%;
+	min-height: 31%;
+	top: 11rem;
+	left: 67rem;
+	transition: .3s;
+}
+
+.Dhoni:hover{
+	transform: scale(1.1);
+	top: 9.5em;
+	transition: .4s;
+}
+
+.Dhoni-text{
+	position: absolute;
+	font-family: 'playfair display', serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	background-color: #000;
+	color: #fff;
+	border: 4px solid #000;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 2em;
+	width: 100%;
+	height: 15%;
+	top: 23.5rem;
+}
+
+
+.Kedarnath{
+	position: absolute;
+	background-color: #000;
+	background: url('Kedarnath.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 5px solid #000;
+	border-radius: 50%;
+	width: 25%;
+	min-height: 31%;
+	top: 40rem;
+	left: 7rem;
+	transition: .3s;
+}
+
+.Kedarnath:hover{
+	transform: scale(1.1);
+	top: 41.5em;
+	transition: .4s;
+}
+
+.Kedarnath-text{
+	position: absolute;
+	font-family: 'playfair display', serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	background-color: #000;
+	color: #fff;
+	border: 4px solid #000;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 2em;
+	width: 70%;
+	height: 15%;
+	top: 23.5rem;
+	left: 2.5rem;
+}
+
+.Chhichhore{
+	position: absolute;
+	background-color: #000;
+	background: url('chhichhore.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 5px solid #000;
+	border-radius: 50%;
+	width: 25%;
+	min-height: 31%;
+	top: 40rem;
+	left: 37rem;
+	transition: .3s;
+}
+
+.Chhichhore:hover{
+	transform: scale(1.1);
+	top: 41.5em;
+	transition: .4s;
+}
+
+.Chhichhore-text{
+	position: absolute;
+	font-family: 'playfair display', serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	background-color: #000;
+	color: #fff;
+	border: 4px solid #000;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 2em;
+	width: 70%;
+	height: 15%;
+	top: 23.5rem;
+	left: 2.5rem;
+}
+
+.Dil{
+	position: absolute;
+	background-color: #000;
+	background: url('Dil Bechara.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 5px solid #000;
+	border-radius: 50%;
+	width: 25%;
+	min-height: 30%;
+	top: 40rem;
+	left: 67rem;
+	transition: .3s;
+}
+
+.Dil:hover{
+	transform: scale(1.1);
+	top: 41.5em;
+	transition: .4s;
+}
+
+.Dil-text{
+	position: absolute;
+	font-family: 'playfair display', serif;
+	font-weight: bold;
+	font-size: 1.6rem;
+	background-color: #000;
+	color: #fff;
+	border: 4px solid #000;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 2em;
+	width: 70%;
+	height: 15%;
+	top: 23.5rem;
+	left: 2.5rem;
+}
+
+.Last{
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+	height: 80%;
+	top: 78em;
+}
+
+.lines{
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	top: 2em;
+	left: 9em;
+	border: 2px solid
+}
+
+.Last-Words{
+	position: absolute;
+	text-align: left;
+	font-family: 'cousine', monospace;
+	font-size: 3rem;
+	top: 2.5em;
+	left: 5em;
+	width: 22em;
+}
+
+.lines2{
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	top: 32em;
+	left: 9em;
+	border: 2px solid;
+}
+
+.footer{
+	position: relative;
+	background: black;
+	top: 78em;
+	width: 100%;
+	min-height: 50%;
+}
+
+.footer a{
+	position: relative;
+	font-size: 2em;
+	color: #fff;
+	font-family: 'Cousine', monospace;
+	font-weight: bold;
+	letter-spacing: 4px;
+	left: 40rem;
+	top: 1em;
+	font-size: 1em;
+	text-align: center;
+	word-spacing: 5px;
+	transition: .3s;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.social{
+	display: inline-block;
+	list-style: none;
+}
+
+.social ul li{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	min-width: 130px;
+	top: 8em;
+	left: 13em;
+	transition: .3s;
+}
+
+.social ul li:hover{
+	transform:scale(1.3);
+	transition: 0.5s;
+}
+
+.credits{
+	display: inline-block;
+	list-style: none;
+}
+
+.credits ul li{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	font-family: 'Cousine', monospace;
+	font-weight: bold;
+	font-size: 1em;
+	min-width: 200px;
+	top: 13em;
+	left: 10em;
+	transition: .3s;
+}
+
+.credits ul li:hover{
+	text-decoration: underline;
+	color: #fff;
+}

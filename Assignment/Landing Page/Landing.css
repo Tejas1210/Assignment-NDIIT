@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	background: url("1D.jpg");
+	background-attachment: normal;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.OD{
+	position: absolute;
+	top: 60%;
+	transform: scale(.6);
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.nav{
+	position: relative;
+	display: inline-block;
+	background: black;
+	min-height: 5em;
+	width: 94.9rem;
+	top: 53rem;
+}
+
+.nav-list{
+	display: inline-block;
+	list-style: none;
+}
+
+.nav ul li{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	min-width: 220px;
+	font-family: 'source code pro', serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 2.6em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+}
+
+.nav ul li:hover{
+	animation: 0.4s fonts infinite;
+}
+
+@keyframes fonts{
+	0%{
+		font-family: 'source code pro', serif;
+		font-size: 1.4rem;
+	}
+	25%{
+		font-family: 'cosuine', monospace;
+		font-size: 1.4rem;
+	}
+	50%{
+		font-family: 'playfair display', serif;
+		font-size: 1.4rem;
+	}
+	75%{
+		font-family: 'vampiro one', serif;
+		font-size: 1.4rem;
+	}
+	100%{
+		font-family: 'oswald', serif;
+		font-size: 1.4rem;
+	}
+}
+
+.ten-years{
+	position: relative;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 5rem;
+	font-weight: normal;
+	top: 11.5em;
+}
+
+.logo-black{
+	position: relative;
+	transform: scale(.65);
+	width: 100%;
+	top: 60em;
+	left: 7em;
+}
+
+.happy{
+	position: relative;
+	font-family: source code pro;
+	text-align: center;
+	font-size: 1.5rem;
+	top: 39em;
+}
+
+.memories{
+	position: relative;
+	font-family: source code pro;
+	text-align: center;
+	font-size: 1.5rem;
+	top: 41em;
+	text-decoration: underline;
+}
+
+.watch{
+	background: url('history.jpg');
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background-attachment: normal;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 71em;
+	opacity: .5;
+}
+
+.watch-text{
+	position: relative;
+	text-align: center;
+	font-family: 'oswald', serif;
+	font-size: 3rem;
+	font-weight: normal;
+	letter-spacing: 5px;
+	top: 16em;
+}
+
+.awards{
+	position: relative;
+	background-color: #eef2f4;
+	width: 50%;
+	height: 100%;
+	min-height: 100%;
+	top: 62.3em;
+}
+
+.brit-awards{
+	position: relative;
+	text-align: center;
+	font-family: 'Playfair Display', inherit;
+	font-size: 3.5rem;
+	font-weight: bold;
+	top: 1.5em;
+}
+
+.read-button{
+	position: relative;
+	top: 15em;
+	left: 10em;
+	text-align: center;
+	font-family: 'Source Code Pro', serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border: 4px solid black;
+	width: 11.5em;
+	height: 3em;
+	line-height: 3em;
+	transition: .3s;
+}
+
+.read-button:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.insta-pic{
+	position: absolute;
+	top: 0em;
+	left: 47em;
+	background: url('sing (1).jpg');
+	background-attachment: normal;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+}
+
+.history{
+	position: relative;
+	top: 67em;
+	left: 20em;
+	background: #eef2f4;
+	height: 120%;
+	width: 60%;
+	border-radius: 50%;
+}
+
+.history-logo{
+	position: relative;
+	left: 6em;
+	transform: scale(.6);
+}
+
+.single{
+	position: relative;
+	text-align: center;
+	top: 7em;
+	right: 2em;
+	font-family: 'Source Code Pro', serif;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	width: 60%;
+}
+
+.history-img{
+	position: absolute;
+	background: url('history cover.jpg');
+	width: 30%;
+	height: 30%;
+	background-attachment: normal;
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 45em;
+
+}
+
+.check-button{
+	position: relative;
+	top: 12em;
+	left: 8.5em;
+	text-align: center;
+	font-family: 'Source Code Pro', serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border: 4px solid black;
+	width: 19.5em;
+	height: 3em;
+	line-height: 3em;
+	transition: .3s;
+}
+
+.check-button:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.mitam-img{
+	position: relative;
+	top: 53em;
+	left: 0em;
+	background: url('MITAM cover.jpg');
+	background-attachment: normal;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	min-height: 100%;
+	height: 100%;
+}
+
+.newsletter{
+	position: relative;
+	background-color: #eef2f4;
+	width: 50%;
+	height: 100%;
+	top: 8em;
+	left: 47.4em;
+}
+
+.get-news{
+	position: absolute;
+	text-align: center;
+	font-family: 'oswald', sans-serif;
+	font-size: 4rem;
+	top: 1em;
+	left: 3.3em;
+	width: 6em;
+}
+
+.line{
+	position: absolute;
+	text-align: center;
+	width: 55%;
+	top: 16em;
+	left: 12em;
+	border: 2px solid
+}
+
+.signup{
+	position: absolute;
+	font-family: 'source code pro', serif;
+	font-size: 2em;
+	text-align: center;
+	top: 10em;
+	left: 3em;
+	width: 19em;
+}
+
+.subscribe-button{
+	position: relative;
+	top: 20em;
+	left: 10em;
+	text-align: center;
+	font-family: 'Source Code Pro', serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border: 4px solid black;
+	width: 13.5em;
+	height: 3em;
+	line-height: 3em;
+	transition: .3s;
+}
+
+.subscribe-button:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.vote{
+	position: relative;
+	background-color: #d9e0f1;
+	width: 100%;
+	height: 100%;
+	top: 8em;
+}
+
+.line2{
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	top: 2em;
+	left: 9em;
+	border: 2px solid
+}
+
+.vote-awards{
+	position: absolute;
+	text-align: left;
+	font-family: 'cousine', monospace;
+	font-size: 3rem;
+	top: 4em;
+	left: 5em;
+	width: 22em;
+}
+
+.line3{
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	top: 32em;
+	left: 9em;
+	border: 2px solid;
+}
+
+.footer{
+	position: absolute;
+	background: black;
+	width: 100%;
+	min-height: 50%;
+}
+
+.footer a{
+	position: relative;
+	font-size: 2em;
+	color: #fff;
+	font-family: 'Cousine', monospace;
+	font-weight: bold;
+	letter-spacing: 4px;
+	left: 43rem;
+	top: 1em;
+	font-size: 1em;
+	text-align: center;
+	word-spacing: 5px;
+	transition: .3s;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.social{
+	display: inline-block;
+	list-style: none;
+}
+
+.social ul li{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	min-width: 130px;
+	top: 8em;
+	left: 4em;
+	transition: .3s;
+}
+
+.social ul li:hover{
+	transform:scale(1.3);
+	transition: 0.5s;
+}
+
+.credits{
+	display: inline-block;
+	list-style: none;
+}
+
+.credits ul li{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	font-family: 'Cousine', monospace;
+	font-weight: bold;
+	font-size: 1em;
+	min-width: 200px;
+	top: 13em;
+	left: 6em;
+	transition: .3s;
+}
+
+.credits ul li:hover{
+	text-decoration: underline;
+	color: #fff;
+}
